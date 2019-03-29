@@ -72,7 +72,7 @@ function start(){
     calcularMes();
     calcularDias();
     diaActual();
-    recordatorios = JSON.parse(localStorage.getItem("recordatorio"))||""
+    recordatorios = JSON.parse(localStorage.getItem("recordatorio"))||[]
     mostrarRecordatorios();
     actualRecord();
 }
