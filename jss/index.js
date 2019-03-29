@@ -144,7 +144,7 @@ function borrarRecor(){
         if(recordatorios[i].dia == diaSeleccionado && recordatorios[i].mes == monthNumber){
             recordatorios.splice(i, 1);
             $(".boton-" + dia).removeClass("subrayado");
-            localStorage.removeItem("recordatorio");
+            localStorage.removeItem("recordatorio",JSON.stringify(recordatorios));
 
         }
     }
