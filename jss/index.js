@@ -72,7 +72,7 @@ function start(){
     calcularMes();
     calcularDias();
     diaActual();
-    recordatorios = JSON.parse(localStorage.getItem("recordatorio"))
+    recordatorios = JSON.parse(localStorage.getItem("recordatorio"))||""
     mostrarRecordatorios();
     actualRecord();
 }
@@ -111,7 +111,6 @@ function mostrarRecordatorios() {
 }
 
 function actualRecord() {
-
     for (var i = 0; i < recordatorios.length; i++) {
         var dia = recordatorios[i].dia;
         var mes = recordatorios[i].mes;
