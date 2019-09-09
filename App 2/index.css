@@ -9,7 +9,7 @@ table{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border: 2px solid black;
     width: 100%;
-    min-width: 1210px;
+    max-width: 800px;
     min-height: 300px;
     border-spacing: 0px;
     border-collapse: collapse;
@@ -24,7 +24,7 @@ th, td{
 }
 td{
     font-weight: bold;
-    font-size: 1.1em;
+    font-size: 0.7em;
 }
 h1{
     text-align: CENTER;
