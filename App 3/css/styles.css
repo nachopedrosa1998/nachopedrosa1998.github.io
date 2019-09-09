@@ -1,0 +1,40 @@
+body{
+    background: url(https://data.whicdn.com/images/117590945/large.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+}
+table{
+    align-content: center;
+    background: rgb(250, 250, 250, .6);
+    table-layout: fixed;
+    text-align: center;
+}
+td{
+    border:none;
+}
+th{
+    border-right: 2px solid white;
+}
+#ingles{
+    background: rgb(0, 250, 250, .2);
+}
+#portugues{
+    background: rgb(250, 0, 250, .2);
+}
+#cunina{
+    background: rgb(250, 250, 0, .2);
+}
+#fiscal{
+    background: rgba(4, 251, 78, 0.2);
+}
+#econometria{
+    background: rgba(46, 14, 190, 0.2);
+
+}
+#investigacion{
+    background: rgba(212, 9, 9, 0.2);
+}
